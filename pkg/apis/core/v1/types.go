@@ -349,6 +349,9 @@ type (
 		// is detected within the idle timeout, the executor will then recycle the
 		// function pod(s) to release resources.
 		IdleTimeout *int `json:"idletimeout,omitempty"`
+
+		// Image for containing the language runtime.
+		Image string `json:"image"`
 	}
 
 	// InvokeStrategy is a set of controls over how the function executes.
