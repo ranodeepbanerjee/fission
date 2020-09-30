@@ -8,7 +8,7 @@
 
 <img src="https://docs.fission.io/images/logo.png" width="300">
 
-Fission is a fast serverless framework for Kubernetes with a focus on
+Fission is a fast serverless framework for Kubernetes which focuses on
 developer productivity and high performance.
 
 Fission operates on _just the code_: Docker and Kubernetes are
